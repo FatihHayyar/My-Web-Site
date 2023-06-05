@@ -102,6 +102,7 @@ section{
 }
 .home-content{
     max-width: 60rem;
+    z-index: 99;
 }
 .home-content h1{
     position: relative;
@@ -144,7 +145,7 @@ section{
 }
 .home-content p{
     position: relative;
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin: 2rem 0 4rem;
 }
 .btn-box{
@@ -468,10 +469,11 @@ span{
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
+    
 
 }
 .skills-row .skills-column{
-    flex: 1 1 40rem;
+    flex: 1 1 30rem;
 
 }
 .skills-column .title{
@@ -519,52 +521,12 @@ width: 100%;
 .skills-content .progress h3 span{
     color: var(--text-color);
 }
-.skills-content .progress .bar{
-    height: 2.5rem;
-    border-radius: .6rem;
-    -webkit-border-radius: .6rem;
-    -moz-border-radius: .6rem;
-    -ms-border-radius: .6rem;
-    -o-border-radius: .6rem;
-    border: .2rem solid var(--main-color);
-    padding: .5rem;
-    margin: 1rem 0;
+.skills-content .progress h3 span i{
+    color: var(--text-color);
+    font-size: 3rem;
 }
-.skills-content .progress .bar span{
-    display: block;
-    height: 100%;
-    border-radius: .3rem;
-    -webkit-border-radius: .3rem;
-    -moz-border-radius: .3rem;
-    -ms-border-radius: .3rem;
-    -o-border-radius: .3rem;
-    background: var(--main-color);
 
-}
-.skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
-    width: 90%;
-}
-.skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
-    width: 90%;
-}
-.skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width: 90%;
-}
-.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
-    width: 90%;
-}
-.skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
-    width: 90%;
-}
-.skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span{
-    width: 90%;
-}
-.skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
-    width: 90%;
-}
-.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
-    width: 90%;
-}
+
 
 .contact{
     min-height: auto;
