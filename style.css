@@ -526,6 +526,24 @@ width: 100%;
     font-size: 3rem;
 }
 
+.footer-iconTop.document{
+    font-size: 1.8rem;
+    padding: 10px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--text-color);
+    
+}
+
+.footer-iconTop.document a:hover{
+    color: var(--text-color)
+}
+.footer-iconTop.document i{
+    font-size: 4rem;
+    font-weight: 500;
+}
 
 
 .contact{
@@ -603,6 +621,11 @@ margin: .8rem 0;
 }
 .contact form .btn-box.btns .btn{
     cursor: pointer;
+}
+.notfall{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: red;
 }
 .footer{
     display: flex;
