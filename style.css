@@ -621,7 +621,12 @@ margin: .8rem 0;
 }
 .contact form .btn-box.btns .btn{
     cursor: pointer;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 .notfall{
     font-size: 1.8rem;
     margin-bottom: 10px;

@@ -34,3 +34,16 @@ window.onscroll=()=>{
     menuIcon.classList.remove("bx-x");
 navbar.classList.remove("active");
 }
+
+const button = document.querySelector('.kayan'); 
+let sayi=0;
+button.addEventListener('mouseover',()=> {
+    sayi++;
+    if(sayi%2==1){
+        button.style.left = "290px"; 
+    }
+    else{
+        button.style.left = "-150px"; 
+    }
+ 
+});
