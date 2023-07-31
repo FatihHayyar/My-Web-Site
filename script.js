@@ -36,14 +36,11 @@ navbar.classList.remove("active");
 }
 
 const button = document.querySelector('.kayan'); 
-let sayi=0;
-button.addEventListener('mouseover',()=> {
-    sayi++;
-    if(sayi%2==1){
-        button.style.left = "290px"; 
+
+button.onclick=()=> {
+    
+    if(document.querySelector(".name").value!=""&&document.querySelector(".email").value!=""&&document.querySelector(".number").value!=""&&document.querySelector(".subject").value!=""){
+        alert("Your message succesfully sent");
+        
     }
-    else{
-        button.style.left = "-150px"; 
-    }
- 
-});
+};
